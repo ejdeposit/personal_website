@@ -1,4 +1,6 @@
+/*
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
+*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
@@ -8,6 +10,9 @@ body{
     margin-left: 0px;
     margin-right: 0px;
 }
+/*
+nav bar
+*/
 .nav-bar{
     display: flex;
     background-color: #4bc4eb;
@@ -31,6 +36,38 @@ body{
 #profiles div a{
     color: inherit;
 }
+/* mobile menu */
+#mobile-menu{
+    display: none;
+}
+div.drop-down{
+    font-size: 1.5rem;
+    width: 100%;
+    position: absolute;
+    background-color: #4bc4eb;
+    color:white;
+}
+@media (max-width: 468px){
+    #links{
+        display: none;
+    }
+}
+@media (max-width: 320px){
+    #profiles{
+        display: none;
+    }
+}
+@media (max-width: 468px){
+    #mobile-menu{
+        display: block;
+    }
+    div.dropdown{
+        display: none;
+    }
+}
+/*
+about
+*/
 #about{
     display:flex;
     flex-direction: column;
@@ -49,7 +86,14 @@ div#about-text{
     margin-top: 40px;
     width: 50%;
 }
-
+div.drop-down{
+    display: none;
+}
+/*
+#hidden{
+    display:none;
+}
+*/
 /*
 #profiles div{
     padding: 10px;
