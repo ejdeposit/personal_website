@@ -1,0 +1,31 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+.nav-bar{
+    display: flex;
+    background-color: #4bc4eb;
+    height: 60px;
+    font-size: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+}
+#profiles, #links{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#profiles div, #links div{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+/*
+#profiles div{
+    padding: 10px;
+}
+*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
