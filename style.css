@@ -1,9 +1,15 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .nav-bar{
     display: flex;
     background-color: #4bc4eb;
     height: 60px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     justify-content: space-between;
     align-items: center;
     color:white;
@@ -17,15 +23,24 @@
     padding-left:10px;
     padding-right:10px;
 }
+#profiles div a{
+    color: inherit;
+}
+#about{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+div#headshot img{
+    border-radius: 150px;
+}
+div#about-text{
+    margin-top: 40px;
+    width: 50%;
+}
 
 /*
 #profiles div{
     padding: 10px;
 }
 */
-body{
-    font-family: 'Open Sans', sans-serif;
-    margin-top:0px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
