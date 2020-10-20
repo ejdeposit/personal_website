@@ -59,6 +59,7 @@ div.drop-down{
 }
 div.drop-down div{
     margin-bottom: 6px;
+    padding-left: 10px;
 }
 @media (max-width: 468px){
     #links{
