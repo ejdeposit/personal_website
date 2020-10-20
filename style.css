@@ -33,8 +33,15 @@ nav bar
     padding-left:10px;
     padding-right:10px;
 }
-#profiles div a{
+#profiles div a, .drop-down div a, #links div a{
     color: inherit;
+    text-decoration: none;
+}
+#profiles div a:hover, .drop-down div a:hover, #links div a:hover{
+    text-decoration: none;
+    color: #dddddd; 
+    text-decoration:none; 
+    cursor:pointer;  
 }
 /* mobile menu */
 #mobile-menu{
@@ -47,17 +54,13 @@ div.drop-down{
     background-color: #4bc4eb;
     color:white;
 }
+div.drop-down{
+    display: none;
+}
 @media (max-width: 468px){
     #links{
         display: none;
     }
-}
-@media (max-width: 320px){
-    #profiles{
-        display: none;
-    }
-}
-@media (max-width: 468px){
     #mobile-menu{
         display: block;
     }
@@ -84,10 +87,17 @@ div#about-text{
     font-family: 'Lato', sans-serif;
     font-size: 1.25rem;
     margin-top: 40px;
-    width: 50%;
+    max-width: 400px;
 }
-div.drop-down{
-    display: none;
+@media (max-width: 320px){
+    div#about-text{
+        width: 90%;
+    }
+}
+@media (max-width: 468px){
+    div#about-text{
+        max-width: 320px;
+    }
 }
 /*
 #hidden{
