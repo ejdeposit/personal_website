@@ -120,24 +120,35 @@ div#contact-container{
     padding-top: 2rem;
 }
 div#contact-form{
+    width: 25rem
+}
+@media (max-width: 468px){
+    div#contact-form{
+        max-width: 90%;
+    }
+}
+form{
     padding: 2rem;
     border: 1px solid hsl(0, 0%, 87%);
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 1px 1px #cccccc;
+
 }
 input, textarea{
     border: 1px solid #dddddd;
     height: 1.5rem;
     border-radius: 5px;
-    width: 20rem;
+    width: 100%;
 }
 textarea{
     height: 10rem;
 }
 button{
+    color: white;
     padding: 5px;
     font-size: 1rem;
     border: 1px solid #dddddd;
-    background-color: #eba64b;
+    background-color: #666666;
     border-radius: 5px;
 }
 div#contact-container div p a{
@@ -150,4 +161,8 @@ form div{
 form div div{
     margin-top: 5px;
     margin-bottom: 5px;
+}
+div#contact-form p{
+    margin-left: 10px;
+    margin-right: 10px
 }
