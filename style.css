@@ -113,3 +113,41 @@ div#about-text{
     padding: 10px;
 }
 */
+div#contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+div#contact-form{
+    padding: 2rem;
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 5px;
+}
+input, textarea{
+    border: 1px solid #dddddd;
+    height: 1.5rem;
+    border-radius: 5px;
+    width: 20rem;
+}
+textarea{
+    height: 10rem;
+}
+button{
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #dddddd;
+    background-color: #eba64b;
+    border-radius: 5px;
+}
+div#contact-container div p a{
+    color: #666666;
+}
+form div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form div div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
