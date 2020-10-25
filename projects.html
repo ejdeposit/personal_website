@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="style.css">
         <script src="https://use.fontawesome.com/9837b97a2b.js"></script>
     </head>
-    <body onload="renderHello()">
+    <body>
         <!-- navabar -->
         <div class="nav-bar">
             <div id="mobile-menu">
@@ -38,31 +38,33 @@
             <div><a href="./projects.html">Projects</a></div>
             <div><a href="./contact.html">Contact</a></div>
         </div> 
-        <!--mustach test-->
-        <div id="target">Loading...</div>
-        <script id="template" type="x-tmpl-mustache">
-          Hello {{ name }}!
-        </script>
-        <!-- about content-->
-        <div id="about">
+        <!-- projects content-->
+        <h1>Projects</h1>
+        <div id="projects">
             <div>
-                <h1>Evan DePosit</h1>
-            </div>
-            <div id="headshot">
-                <img src="./img/headshotSq.jpg" alt="head shot" width="300" height="300" >
-            </div>
-            <div id="about-text">
-                <p>
-                I am seeking software development roles. Prior to pursuing my Masters Degree in Computer Science at Portland State University, I worked for six years as a high school science teacher. I decided to change to a career in computer science when I discovered how personally rewarding and satisfying coding is. I love the creativity required to design new solutions to complex problems, and I enjoy the challenge of analyzing bugs when I encounter errors. I am graduating in December of 2020.
-                </p>
+                <img src="./img/starBattleSolSq.jpg" alt="star battle puzzle" width="200" height="200" >
+                <h2>Star Battle Solver</h2>
+                <div>
+                    <p>I first encountered Star Battle puzzles in the New York Times where they were printed under the name Two Not Touch.  The puzzle board is divided into regions.
+                    In each region, row, and column there can be no more than two stars, and stars can not be next to adjacent stars.
+                    I wondered what sort of algorithms could solve them.  Luckily the next term I started learning about these algorithms in my Artificial 
+                    Intelligence course.  I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The alogithm a back-tracking search for a solution.  
+                    At each step, it looks eliminates any possible next moves that are no longer feasible and checks to make sure that each board is not impossible to solve given the current configuration.  
+                    If it is, it backtracks and try another feasible move.
+                    </p>
+                </div>
             </div>
         </div>
+        <!-- pixamed internship -->
+        <!-- covid dashboard -->
+        <!-- cloud systems project -->
+        <!-- cellular atamoan in haskel-->
+        <!-- fractals -->
+        
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
         <script src="script.js" async defer></script>
-        <script src="https://unpkg.com/mustache@latest"></script>
-        <script src="render.js"></script>
     </body>
 </html>
