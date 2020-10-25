@@ -39,28 +39,58 @@
             <div><a href="./contact.html">Contact</a></div>
         </div> 
         <!-- projects content-->
+        <div class="page-title" id=project-title>
         <h1>Projects</h1>
+        </div>
         <div id="projects">
-            <div>
-                <img src="./img/starBattleSolSq.jpg" alt="star battle puzzle" width="200" height="200" >
+            <!-- two not touch-->
+            <div class="project-item item">
+                <img src="./img/sample_10x10.png" width="90%"/>
                 <h2>Star Battle Solver</h2>
                 <div>
                     <p>I first encountered Star Battle puzzles in the New York Times where they were printed under the name Two Not Touch.  The puzzle board is divided into regions.
                     In each region, row, and column there can be no more than two stars, and stars can not be next to adjacent stars.
                     I wondered what sort of algorithms could solve them.  Luckily the next term I started learning about these algorithms in my Artificial 
-                    Intelligence course.  I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The alogithm a back-tracking search for a solution.  
+                    Intelligence course.  
+                    </p>
+                    <img src="./img/starBattleSolSq.jpg" alt="star battle puzzle" width="200" height="200" >
+                    <p>
+                    I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The alogithm a back-tracking search for a solution.  
                     At each step, it looks eliminates any possible next moves that are no longer feasible and checks to make sure that each board is not impossible to solve given the current configuration.  
                     If it is, it backtracks and try another feasible move.
                     </p>
                 </div>
+                <div class="project-links">
+                    <div><a></a></div>
+                    <div><a href="https://github.com/tollesonpdx/TwoNotTouch_StarBattle"><i class="fa fa-github"></i></a></div>
+                </div>
             </div>
-        </div>
-        <!-- pixamed internship -->
         <!-- covid dashboard -->
+            <div class="project-item item">
+                <a href="https://state-covid-comparisons.herokuapp.com/">
+                    <img src="./img/covid-tracker.png" width="90%"/>
+                </a>
+                <h2>State Covid Tracker</h2>
+                <div>
+                    <p>
+                    I created this project for a course in front-end development.  I made it as states were beginning to attempt to reopen 
+                    in spring of 2020, and I wanted to create a way to compare covid cases between states to analyze the affect of
+                    reopening descisions.
+                    </p>
+                   
+                </div>
+                <div class="project-links">
+                    <div class="app-link"><a href="https://state-covid-comparisons.herokuapp.com/">Site</a></div>
+                    <div class="git-link"><a href="https://github.com/ejdeposit/frontend-project"><i class="fa fa-github"></i></a></div>
+                </div>
+            </div>
+
+        <!-- pixamed internship -->
         <!-- cloud systems project -->
         <!-- cellular atamoan in haskel-->
         <!-- fractals -->
         
+        </div>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
