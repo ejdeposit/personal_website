@@ -13,7 +13,29 @@ body{
 div.page-title{
     text-align: center;
     color:  #eb554b;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
 }
+div.item, form.item{
+    padding: 2rem;
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 8px;
+    box-shadow: 1px 1px #cccccc;
+}
+h1, h2{
+    color:  #eb554b; 
+}
+h2#sub-title{
+    font-size: 1.3rem;
+}
+/*
+div.content{
+}
+*/
+a{
+    color:#eba64b;
+}
+
 /*
 nav bar
 */
@@ -84,10 +106,12 @@ about
     flex-direction: column;
     align-items: center;
 }
+/*
 #about div h1{
     font-family: 'Oswald', sans-serif;
     font-size: 3rem;
 }
+*/
 div#headshot img{
     border-radius: 150px;
 }
@@ -107,29 +131,11 @@ div#about-text{
         max-width: 320px;
     }
 }
-/*
-#hidden{
-    display:none;
-}
-*/
-/*
-#profiles div{
-    padding: 10px;
-}
-*/
-/* item */
-div.item, form.item{
-    padding: 2rem;
-    border: 1px solid hsl(0, 0%, 87%);
-    border-radius: 8px;
-    box-shadow: 1px 1px #cccccc;
-}
 /* contact */
 div#contact-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
 }
 div#contact-form{
     width: 25rem
@@ -156,9 +162,11 @@ button{
     background-color: #eba64b;
     border-radius: 5px;
 }
+/*
 div#contact-container div p a{
     color: #666666;
 }
+*/
 form div{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -171,15 +179,18 @@ div#contact-form p{
     margin-left: 10px;
     margin-right: 10px
 }
-/* projects */
+
+/* ---------------------- 
+       projects 
+------------------------*/
 div#projects{
     padding: 20px;
     display: flex;
     align-items: flex-start;
-
+    flex-wrap: wrap
 }
 div.project-item{
-    width: 350px;
+    width: 320px;
     margin-right: 20px;
     margin-left: 20px;
     
@@ -201,8 +212,30 @@ div.project-links div a{
     text-decoration: none;
 }
 div.project-links div.app-link a{
-    font-size: 1.25rem;
+    font-size: 1.10rem;
     color: #eba64b;
     text-decoration: underline;
 
+}
+div#project-footer{
+    position: sticky;
+    bottom: 0px;
+    text-align: center;
+    background-color: #eeeeee;
+}
+/* do i need ot change all .items to small padding for mobile? */ 
+@media (max-width: 468px){
+    div#projects{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.project-item{
+        width: 90%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        padding:5px;
+    }
 }

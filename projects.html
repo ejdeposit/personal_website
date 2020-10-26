@@ -20,7 +20,8 @@
                 <i class="fa fa-bars"></i>
             </div>
             <div id="links">
-                <div><a href="./index.html">About</a></div>
+                <div><a href="./index.html">Home</a></div>
+                <div><a href="./about.html">About</a></div>
                 <div><a href="./projects.html">Projects</a></div>
                 <div><a href="./contact.html">Contact</a></div>
             </div>
@@ -34,19 +35,21 @@
             </div>
         </div>
         <div class="hidden drop-down">
-            <div><a href='./index.html'>About</a></div>
+            <div><a href='./index.html'>Home</a></div>
+            <div><a href='./about.html'>About</a></div>
             <div><a href="./projects.html">Projects</a></div>
             <div><a href="./contact.html">Contact</a></div>
         </div> 
         <!-- projects content-->
         <div class="page-title" id=project-title>
-        <h1>Projects</h1>
+            <h1>Projects</h1>
         </div>
-        <div id="projects">
+        <div class="content" id="projects">
             <!-- two not touch-->
             <div class="project-item item">
                 <img src="./img/sample_10x10.png" width="90%"/>
                 <h2>Star Battle Solver</h2>
+                <b>Tech Stack:</b> Python, PyUnit
                 <div>
                     <p>I first encountered Star Battle puzzles in the New York Times where they were printed under the name Two Not Touch.  The puzzle board is divided into regions.
                     In each region, row, and column there can be no more than two stars, and stars can not be next to adjacent stars.
@@ -65,36 +68,50 @@
                     <div><a href="https://github.com/tollesonpdx/TwoNotTouch_StarBattle"><i class="fa fa-github"></i></a></div>
                 </div>
             </div>
-        <!-- covid dashboard -->
+            <!-- covid dashboard -->
             <div class="project-item item">
                 <a href="https://state-covid-comparisons.herokuapp.com/">
                     <img src="./img/covid-tracker.png" width="90%"/>
                 </a>
                 <h2>State Covid Tracker</h2>
+                <b>Tech Stack:</b> Javascript, CSS, Node.js, Express
                 <div>
                     <p>
                     I created this project for a course in front-end development.  I made it as states were beginning to attempt to reopen 
                     in spring of 2020, and I wanted to create a way to compare covid cases between states to analyze the affect of
                     reopening descisions.
                     </p>
-                   
                 </div>
                 <div class="project-links">
                     <div class="app-link"><a href="https://state-covid-comparisons.herokuapp.com/">Site</a></div>
                     <div class="git-link"><a href="https://github.com/ejdeposit/frontend-project"><i class="fa fa-github"></i></a></div>
                 </div>
             </div>
-
-        <!-- pixamed internship -->
-        <!-- cloud systems project -->
-        <!-- cellular atamoan in haskel-->
-        <!-- fractals -->
-        
+            <!-- pixamed internship -->
+            <div class="project-item item">
+                <img src="./img/pixamed.png" width="150px"/>
+                <h2>Full Stack Developer Internship, Pixameter</h2>
+                <b>Tech Stack:</b> Javascript, CSS, Node.js, Express, MongoDB, Bootstrap, Jquery
+                <div>
+                    <p>
+                        Developed front-end and back-end services to allow patients to share health information with their medical providers through a telemedicine web application.
+                        Integrated Google Cloud services, including the Maps API, to allow users to find nearby pharmaceutical services.
+                    </p>
+                </div>
+                <div class="project-links">
+                    <div class="app-link"><a href="https://www.pixamed.com/">Site</a></div>
+                    <div class="git-link"></div>
+                </div>
+            </div>
+            <!-- cloud systems project -->
+            <!-- cellular atamoan in haskel-->
+            <!-- fractals -->
         </div>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
+        <div id="project-footer"><b>Scroll Down</b></div> 
+        <!-- <div id="project-footer"><button onclick="window.scroll(0, 100)"><i class="fa fa-arrow-down"></i></button></div> -->
         <script src="script.js" async defer></script>
     </body>
 </html>
