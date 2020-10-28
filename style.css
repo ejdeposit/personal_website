@@ -224,6 +224,9 @@ div#project-footer{
     text-align: center;
     background-color: #eeeeee;
 }
+div.project-item img{
+    max-width: 100%;
+}
 /* do i need ot change all .items to small padding for mobile? */ 
 @media (max-width: 468px){
     div#projects{
@@ -237,6 +240,6 @@ div#project-footer{
         margin-right: 0px;
         margin-left: 0px;
         margin-bottom: 20px;
-        padding:5px;
+        padding:10px;
     }
 }
