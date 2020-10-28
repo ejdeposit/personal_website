@@ -18,3 +18,6 @@ Star Battle:
 "Similar to Sudoku, the puzzle board is divided into regions where each region, row, and column can contain no more than two stars and stars may not be placed adjacently. I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The AC-3 algorithm uses a back-tracking search.  At each step a feasible move is attempted, then any moves that are no longer feasible are eliminated.  Additionally, checks occur to make sure that the board is not impossible to solve given the current configuration. If it is, it backtracks to the last move and tries an alternative feasible star placement."
 
 Implemented a constraint satisfaction algorithm (AC-3) to solve Star Battle logic puzzles.
+
+Cellular automata
+Courses, such as Artificial Intelligence and Theory of Computation left me intrigued by the idea cellular automata other simple computational models.  I created an interactive program in Haskell that allows users input starting configurations and rules for the cellular automata, so they can discover for them selves new intriguing patterns.  This project served a great learning opportunity to become more fluent coding using functional paradigms and also gave me a solid understanding of language concepts such as the type system which has helped me understand more fully other strongly typed languages, such as Java.  
