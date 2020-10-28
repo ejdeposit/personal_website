@@ -51,16 +51,20 @@
                 <h2>Star Battle Solver</h2>
                 <b>Tech Stack:</b> Python, PyUnit
                 <div>
-                    <p>I first encountered Star Battle puzzles in the New York Times where they were printed under the name Two Not Touch.  The puzzle board is divided into regions.
-                    In each region, row, and column there can be no more than two stars, and stars can not be next to adjacent stars.
-                    I wondered what sort of algorithms could solve them.  Luckily the next term I started learning about these algorithms in my Artificial 
-                    Intelligence course.  
+                    <p>I first encountered Star Battle puzzles in the New York Times where they were printed under the 
+                    name Two Not Touch. The game is not unlike Sudoku. The puzzle board is divided into regions. In each
+                    region, row, and column there can be no more than two stars.  Additionally, stars may not be placed 
+                    adjacently. As I attempted to solve them, I began to wonder if there were some sort of algorithmic 
+                    shortcut. 
                     </p>
-                    <img src="./img/starBattleSolSq.jpg" alt="star battle puzzle" width="200" height="200" >
+                    <img src="./img/starBattleSolSq.jpg" alt="star battle puzzle" width="100%">
                     <p>
-                    I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The alogithm a back-tracking search for a solution.  
-                    At each step, it looks eliminates any possible next moves that are no longer feasible and checks to make sure that each board is not impossible to solve given the current configuration.  
-                    If it is, it backtracks and try another feasible move.
+                    I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The AC-3 algorithm 
+                    uses a back-tracking search.  At each step a feasible move is attempted.  To prune the decision tree 
+                    down a bit.  The most constrained choices are attempted first in my implementation. Additionally, 
+                    at each step, the algorithm looks eliminates any possible next moves that is no longer feasible and 
+                    checks to make sure that the board is not impossible to solve given the current configuration. If it is, it 
+                    backtracks to the last move and tries another feasible star placement.
                     </p>
                 </div>
                 <div class="project-links">
@@ -71,15 +75,17 @@
             <!-- covid dashboard -->
             <div class="project-item item">
                 <a href="https://state-covid-comparisons.herokuapp.com/">
-                    <img src="./img/covid-tracker.png" width="90%"/>
+                    <img src="./img/covid-tracker.png" width="100%"/>
                 </a>
                 <h2>State Covid Tracker</h2>
                 <b>Tech Stack:</b> Javascript, CSS, Node.js, Express
                 <div>
                     <p>
-                    I created this project for a course in front-end development.  I made it as states were beginning to attempt to reopen 
-                    in spring of 2020, and I wanted to create a way to compare covid cases between states to analyze the affect of
-                    reopening descisions.
+                    I created this project as states were beginning to attempt to reopen from covid-19 shut downs 
+                    in spring of 2020. I wanted to create a way to compare covid cases numbers between states to analyze the affect
+                    reopening descisions were having. I wanted to gain more competency with CSS, so I kept the tech stack to a minimum, rather than rely
+                    frameworks, such as bootstrap. It started out as a single page web application, but later I added an Express backend to conform to  
+                    the same-origin policy.
                     </p>
                 </div>
                 <div class="project-links">
@@ -89,13 +95,16 @@
             </div>
             <!-- pixamed internship -->
             <div class="project-item item">
-                <img src="./img/pixamed.png" width="150px"/>
+                <img src="./img/pixamed.png" width="60%"/>
                 <h2>Full Stack Developer Internship, Pixameter</h2>
                 <b>Tech Stack:</b> Javascript, CSS, Node.js, Express, MongoDB, Bootstrap, Jquery
                 <div>
                     <p>
-                        Developed front-end and back-end services to allow patients to share health information with their medical providers through a telemedicine web application.
-                        Integrated Google Cloud services, including the Maps API, to allow users to find nearby pharmaceutical services.
+                    In the summer of 2020 I worked as full-stack developer at Pixameter, a small start-up that specializes in wound measurement and 
+                    tele-medicine software.  
+                    I Developed front-end and back-end services to allow patients to share health information with their medical providers through a new
+                    telemedicine web application. I was able to design and implement brand new service to the web application where I Integrated Google 
+                    Cloud services, including the Maps API, to allow users to find nearby pharmaceutical services.
                     </p>
                 </div>
                 <div class="project-links">
@@ -104,7 +113,9 @@
                 </div>
             </div>
             <!-- cloud systems project -->
+
             <!-- cellular atamoan in haskel-->
+
             <!-- fractals -->
         </div>
         <!--[if lt IE 7]>
