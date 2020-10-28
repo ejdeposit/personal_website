@@ -3,7 +3,7 @@
 ## install 
 `npm install -g mustache`
 
-## Compliling project Template
+## Compliling project Templates
 ```
 mustache -p navPartial.mustache projectsView.json projectsTemplate.mustache > ./../projects.html
 mustache -p navPartial.mustache projectsView.json index.mustache > ./../index.html
