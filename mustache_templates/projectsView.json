@@ -25,7 +25,7 @@
         "git":"<a href=\"https://github.com/tollesonpdx/TwoNotTouch_StarBattle\"><i class=\"fa fa-github\"></i></a>"
         },
         {
-        "image": "<img src=\"./img/phone.jpg\" alt=\"phone\" width=\"275px\">",
+        "image": "<img src=\"./img/phone.jpg\" alt=\"phone\" width=\"250px\">",
         "title": "Android Appointment Application",
         "stack": "Java, Junit, Maven, Gradle",
         "content": "Integrated test-driven development practices into the construction of an Android appointment book application in Java to create, organize, and search for appointments.",

@@ -12,7 +12,6 @@ Implemented a bipartite matching algorithm in Python to schedule lessons and act
 
 Designed and implemented a data model to store Portland freeway data in a Cassandra database cluster on Google Cloud’s Compute Engine virtual machines.
 
-
 Star Battle:
 "I first encountered Star Battle puzzles in the New York Times where they were printed under the name Two Not Touch. The game is not unlike Sudoku. The puzzle board is divided into regions. In each region, row, and column there can be no more than two stars.  Additionally, stars may not be placed adjacently. As I attempted to solve them, I began to wonder if there were some sort of algorithmic shortcut. I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The AC-3 algorithm uses a back-tracking search.  At each step a feasible move is attempted.  To prune the decision tree down a bit, the most constrained choices are attempted first in my implementation. Additionally, at each step, the algorithm looks to eliminates any possible next moves that are no longer feasible and checks to make sure that the board is not impossible to solve given the current configuration. If it is, it backtracks to the last move and tries another feasible star placement."
 
