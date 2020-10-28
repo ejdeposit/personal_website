@@ -1,5 +1,9 @@
 # personal_website
 
+# to do
+- give images explicit height on project page
+- download fonts
+
 ## install 
 `npm install -g mustache`
 

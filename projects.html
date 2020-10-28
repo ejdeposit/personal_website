@@ -46,12 +46,12 @@
         <div class="content" id="projects">
 
             <div class="project-item item">
-                <a href="https://state-covid-comparisons.herokuapp.com/"><img src="./img/covid-tracker.png" width="100%"/></a>
+                <a href="https://state-covid-comparisons.herokuapp.com/"><img src="./img/covid-tracker.png" width="325px"/></a>
                 <h2>State Covid Tracker</h2>
                 <b>Tech Stack:</b> Javascript, CSS, Node.js, Express
                 <div>
                     <p>
-                    I created this project as states were beginning to attempt to reopen from Covid-19 shut downs in spring of 2020. I wanted to create a way to compare covid cases numbers between states to analyze the affect reopening descisions were having. I wanted to gain more competency with CSS, so I kept the tech stack to a minimum, rather than rely frameworks, such as bootstrap. It started out as a single page web application, but later I added an Express backend to conform to the same-origin policy.
+                    I created this project as states were beginning to attempt to reopen from Covid-19 shut downs in spring of 2020. I wanted to create a way to compare covid cases numbers between states to analyze the affect reopening descisions were having. I wanted to gain more competency with CSS, so I kept the tech stack to a minimum, rather than rely frameworks, such as Bootstrap. It started out as a single page web application, but later I added an Express backend to conform to the same-origin policy.
                     </p>
                 </div>
                 <div class="project-links">
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div class="project-item item">
-                <a href="https://www.pixamed.com/"><img src="./img/pixamed.png" width="60%"/></a>
+                <a href="https://www.pixamed.com/"><img src="./img/pixamed.png" width="200px"/></a>
                 <h2>Full Stack Developer Internship, Pixameter</h2>
                 <b>Tech Stack:</b> Javascript, CSS, Node.js, Express, MongoDB, Bootstrap, Jquery
                 <div>
@@ -74,17 +74,31 @@
                 </div>
             </div>
             <div class="project-item item">
-                <img src="./img/starBattleSolSq.jpg" alt="star battle puzzle" width="60%">
+                <img src="./img/starBattleSolSq.jpg" alt="star battle puzzle" width="200px">
                 <h2>Star Battle Solver</h2>
                 <b>Tech Stack:</b> Python, PyUnit
                 <div>
                     <p>
-                    I first encountered Star Battle puzzles in the New York Times where they were printed under the name Two Not Touch. The game is not unlike Sudoku. The puzzle board is divided into regions. In each region, row, and column there can be no more than two stars.  Additionally, stars may not be placed adjacently. As I attempted to solve them, I began to wonder if there were some sort of algorithmic shortcut. I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The AC-3 algorithm uses a back-tracking search.  At each step a feasible move is attempted.  To prune the decision tree down a bit, the most constrained choices are attempted first in my implementation. Additionally, at each step, the algorithm looks to eliminates any possible next moves that are no longer feasible and checks to make sure that the board is not impossible to solve given the current configuration. If it is, it backtracks to the last move and tries another feasible star placement.
+                    Similar to Sudoku, the puzzle board is divided into regions where each region, row, and column can contain no more than two stars and stars may not be placed adjacently. I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The AC-3 algorithm uses a back-tracking search.  At each step a feasible move is attempted, then any moves that are no longer feasible are eliminated.  Additionally, checks occur to make sure that the board is not impossible to solve given the current configuration. If it is, it backtracks to the last move and tries an alternative feasible star placement.
                     </p>
                 </div>
                 <div class="project-links">
                     <div class="app-link"><a href="https://www.pixamed.com/">Site</a></div>
                     <div class="git-link"><a href="https://github.com/tollesonpdx/TwoNotTouch_StarBattle"><i class="fa fa-github"></i></a></div>
+                </div>
+            </div>
+            <div class="project-item item">
+                <img src="./img/phone.jpg" alt="phone" width="275px">
+                <h2>Android Appointment Application</h2>
+                <b>Tech Stack:</b> Java, Junit, Maven, Gradle
+                <div>
+                    <p>
+                    Integrated test-driven development practices into the construction of an Android appointment book application in Java to create, organize, and search for appointments.
+                    </p>
+                </div>
+                <div class="project-links">
+                    <div class="app-link"></div>
+                    <div class="git-link"><a href="https://github.com/ejdeposit/appt_book_android_app"><i class="fa fa-github"></i></a></div>
                 </div>
             </div>
 

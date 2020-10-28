@@ -1,0 +1,21 @@
+Resume:
+
+Created a Flask web application on Google Cloud’s App Engine utilizing Google’s Vision API to automatically generate accessible HMTL image tags for uploaded photos in Cloud Storage.
+
+Built a web application using Node.js and jQuery that allows two users to play the board game Go.
+
+Integrated test-driven development practices into the construction of an Android appointment book application in Java to create, organize, and search for appointments.
+
+Created a relational database in PostgreSQL of corporate data, including financial performance and board make-up, to compare the performance of companies in the Dow Jones Industrial Average.
+
+Implemented a bipartite matching algorithm in Python to schedule lessons and activities for elementary school students.
+
+Designed and implemented a data model to store Portland freeway data in a Cassandra database cluster on Google Cloud’s Compute Engine virtual machines.
+
+
+Star Battle:
+"I first encountered Star Battle puzzles in the New York Times where they were printed under the name Two Not Touch. The game is not unlike Sudoku. The puzzle board is divided into regions. In each region, row, and column there can be no more than two stars.  Additionally, stars may not be placed adjacently. As I attempted to solve them, I began to wonder if there were some sort of algorithmic shortcut. I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The AC-3 algorithm uses a back-tracking search.  At each step a feasible move is attempted.  To prune the decision tree down a bit, the most constrained choices are attempted first in my implementation. Additionally, at each step, the algorithm looks to eliminates any possible next moves that are no longer feasible and checks to make sure that the board is not impossible to solve given the current configuration. If it is, it backtracks to the last move and tries another feasible star placement."
+
+"Similar to Sudoku, the puzzle board is divided into regions where each region, row, and column can contain no more than two stars and stars may not be placed adjacently. I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The AC-3 algorithm uses a back-tracking search.  At each step a feasible move is attempted, then any moves that are no longer feasible are eliminated.  Additionally, checks occur to make sure that the board is not impossible to solve given the current configuration. If it is, it backtracks to the last move and tries an alternative feasible star placement."
+
+Implemented a constraint satisfaction algorithm (AC-3) to solve Star Battle logic puzzles.
