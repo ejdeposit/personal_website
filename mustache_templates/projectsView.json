@@ -31,6 +31,14 @@
         "content": "Integrated test-driven development practices into the construction of an Android appointment book application in Java to create, organize, and search for appointments.",
         "site": "",
         "git":"<a href=\"https://github.com/ejdeposit/appt_book_android_app\"><i class=\"fa fa-github\"></i></a>"
+        },
+        {
+        "image": "<img src=\"./img/vision-api.svg\" alt=\"cloud vision logo\" width=\"250px\">",
+        "title": "Accessible Image Generator",
+        "stack": "Python; Flask; Google Cloud: App App Engine, Vision API, Datastore",
+        "content": "Created a Flask web application on Google Cloud’s App Engine utilizing Google’s Vision API to automatically generate accessible HMTL image tags for uploaded photos in Cloud Storage.",
+        "site": "",
+        "git":"<a href=\"https://bitbucket.org/edeposit/cloud-img-alt-generator/src/master/\"><i class=\"fa fa-github\"></i></a>"
         }
     ]
 }

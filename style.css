@@ -87,7 +87,7 @@ div.drop-down div{
     margin-bottom: 6px;
     padding-left: 10px;
 }
-@media (max-width: 468px){
+@media (max-width: 610px){
     #links{
         display: none;
     }
@@ -189,6 +189,7 @@ div#projects{
     align-items: flex-start;
     flex-wrap: wrap
 }
+/* padding inherited from item */
 div.project-item{
     width: 320px;
     margin-right: 20px;
