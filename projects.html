@@ -45,33 +45,6 @@
             <h1>Projects</h1>
         </div>
         <div class="content" id="projects">
-            <!-- two not touch-->
-            <div class="project-item item">
-                <img src="./img/sample_10x10.png" width="90%"/>
-                <h2>Star Battle Solver</h2>
-                <b>Tech Stack:</b> Python, PyUnit
-                <div>
-                    <p>I first encountered Star Battle puzzles in the New York Times where they were printed under the 
-                    name Two Not Touch. The game is not unlike Sudoku. The puzzle board is divided into regions. In each
-                    region, row, and column there can be no more than two stars.  Additionally, stars may not be placed 
-                    adjacently. As I attempted to solve them, I began to wonder if there were some sort of algorithmic 
-                    shortcut. 
-                    </p>
-                    <img src="./img/starBattleSolSq.jpg" alt="star battle puzzle" width="100%">
-                    <p>
-                    I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The AC-3 algorithm 
-                    uses a back-tracking search.  At each step a feasible move is attempted.  To prune the decision tree 
-                    down a bit.  The most constrained choices are attempted first in my implementation. Additionally, 
-                    at each step, the algorithm looks eliminates any possible next moves that is no longer feasible and 
-                    checks to make sure that the board is not impossible to solve given the current configuration. If it is, it 
-                    backtracks to the last move and tries another feasible star placement.
-                    </p>
-                </div>
-                <div class="project-links">
-                    <div><a></a></div>
-                    <div><a href="https://github.com/tollesonpdx/TwoNotTouch_StarBattle"><i class="fa fa-github"></i></a></div>
-                </div>
-            </div>
             <!-- covid dashboard -->
             <div class="project-item item">
                 <a href="https://state-covid-comparisons.herokuapp.com/">
@@ -112,7 +85,38 @@
                     <div class="git-link"></div>
                 </div>
             </div>
+            <!-- two not touch-->
+            <div class="project-item item">
+                <!-- <img src="./img/sample_10x10.png" width="90%"/> -->
+                <img src="./img/starBattleSolSq.jpg" alt="star battle puzzle" width="60%">
+                <h2>Star Battle Solver</h2>
+                <b>Tech Stack:</b> Python, PyUnit
+                <div>
+                    <p>I first encountered Star Battle puzzles in the New York Times where they were printed under the 
+                    name Two Not Touch. The game is not unlike Sudoku. The puzzle board is divided into regions. In each
+                    region, row, and column there can be no more than two stars.  Additionally, stars may not be placed 
+                    adjacently. As I attempted to solve them, I began to wonder if there were some sort of algorithmic 
+                    shortcut. 
+                    <!-- 
+                    </p>
+                    <p>
+                    -->
+                    I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The AC-3 algorithm 
+                    uses a back-tracking search.  At each step a feasible move is attempted.  To prune the decision tree 
+                    down a bit, the most constrained choices are attempted first in my implementation. Additionally, 
+                    at each step, the algorithm looks to eliminates any possible next moves that are no longer feasible and 
+                    checks to make sure that the board is not impossible to solve given the current configuration. If it is, it 
+                    backtracks to the last move and tries another feasible star placement.
+                    </p>
+                </div>
+                <div class="project-links">
+                    <div><a></a></div>
+                    <div><a href="https://github.com/tollesonpdx/TwoNotTouch_StarBattle"><i class="fa fa-github"></i></a></div>
+                </div>
+            </div>
             <!-- cloud systems project -->
+            
+            <!-- Androloid appointment book-->
 
             <!-- cellular atamoan in haskel-->
 
