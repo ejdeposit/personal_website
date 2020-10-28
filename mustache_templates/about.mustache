@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://use.fontawesome.com/9837b97a2b.js"></script>
+    </head>
+    <body>
+        <!-- navabar -->
+        {{> navPartial}} 
+        <!-- about content-->
+        <div id="about">
+            <div class="page-title">
+                <h1>About</h1>
+            </div>
+            <div id="headshot">
+                <img src="./img/headshotSq.jpg" alt="head shot" width="300" height="300" >
+            </div>
+            <!-- 
+            <div>
+                <h2>Evan DePosit</h2>
+            </div>
+               -->
+            <div id="about-text">
+                <p>
+                I am seeking software development roles. Prior to pursuing my Masters Degree in Computer Science at Portland State University, I worked for six years as a high school science teacher. I decided to change to a career in computer science when I discovered how personally rewarding and satisfying coding is. I love the creativity required to design new solutions to complex problems, and I enjoy the challenge of analyzing bugs when I encounter errors. I am graduating in December of 2020.
+                </p>
+            </div>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="script.js" async defer></script>
+        <script src="https://unpkg.com/mustache@latest"></script>
+        <script src="render.js"></script>
+    </body>
+</html>
