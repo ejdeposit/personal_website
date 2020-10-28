@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://use.fontawesome.com/9837b97a2b.js"></script>
+    </head>
+    <body>
+        <!-- navabar -->
+        {{> navPartial}} 
+        <!-- projects content-->
+        <div class="page-title" id=project-title>
+            <h1>Projects</h1>
+        </div>
+        <div class="content" id="projects">
+
+            {{#projects}} 
+            <div class="project-item item">
+                {{{image}}}
+                <h2>{{title}}</h2>
+                <b>Tech Stack:</b> {{stack}}
+                <div>
+                    <p>
+                    {{content}}
+                    </p>
+                </div>
+                <div class="project-links">
+                    <div class="app-link">{{{site}}}</div>
+                    <div class="git-link">{{{git}}}</div>
+                </div>
+            </div>
+            {{/projects}}
+
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="project-footer"><b>Scroll Down</b></div> 
+        <!-- <div id="project-footer"><button onclick="window.scroll(0, 100)"><i class="fa fa-arrow-down"></i></button></div> -->
+        <script src="script.js" async defer></script>
+    </body>
+</html>
