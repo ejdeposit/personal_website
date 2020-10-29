@@ -12,7 +12,7 @@
         "image": "<a href=\"https://www.pixamed.com/\"><img src=\"./img/pixamed.png\" width=\"200px\"/></a>",
         "title": "Full Stack Developer Internship, Pixameter",
         "stack": "Javascript, CSS, Node.js, Express, MongoDB, Bootstrap, Jquery",
-        "content": "In the summer of 2020 I worked as full-stack developer at Pixameter, a small start-up that specializes in wound measurement and tele-medicine software. I developed front-end and back-end services to allow patients to share health information with their medical providers through a new telemedicine web application. I was able to design and implement brand new service to the web application where I Integrated Google Cloud services, including the Maps API, to allow users to find nearby pharmaceutical services.",
+        "content": "In the summer of 2020 I worked as full-stack developer at Pixameter, a small start-up specializing in wound measurement and tele-medicine software. I developed front-end and back-end services to allow patients to share health information with their medical providers through a new tele-medicine web application. I was also able to design and implement a brand new service to the web application where I Integrated Google Cloud services, including the Maps API, to allow users to find nearby pharmaceutical services.",
         "site": "<a href=\"https://www.pixamed.com/\">Site</a>",
         "git":""
         },
