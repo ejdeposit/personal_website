@@ -12,7 +12,7 @@
         "image": "<a href=\"https://www.pixamed.com/\"><img src=\"./img/pixamed.png\" width=\"200px\"/></a>",
         "title": "Full Stack Developer Internship, Pixameter",
         "stack": "Javascript, CSS, Node.js, Express, MongoDB, Bootstrap, Jquery",
-        "content": "In the summer of 2020 I worked as full-stack developer at Pixameter, a small start-up that specializes in wound measurement and tele-medicine software. I Developed front-end and back-end services to allow patients to share health information with their medical providers through a new telemedicine web application. I was able to design and implement brand new service to the web application where I Integrated Google Cloud services, including the Maps API, to allow users to find nearby pharmaceutical services.",
+        "content": "In the summer of 2020 I worked as full-stack developer at Pixameter, a small start-up that specializes in wound measurement and tele-medicine software. I developed front-end and back-end services to allow patients to share health information with their medical providers through a new telemedicine web application. I was able to design and implement brand new service to the web application where I Integrated Google Cloud services, including the Maps API, to allow users to find nearby pharmaceutical services.",
         "site": "<a href=\"https://www.pixamed.com/\">Site</a>",
         "git":""
         },
@@ -44,7 +44,7 @@
         "image": "<img src=\"./img/output_cell_aut_exe.png\" alt=\"cloud vision logo\" width=\"300px\">",
         "title": "Cellular Automata in Haskell",
         "stack": "Haskell, HUnit",
-        "content": "Courses, such as Artificial Intelligence and Theory of Computation left me intrigued by the idea of cellular automata and other simple computational models. I created an interactive program in Haskell that allows users to input starting configurations of live cell and rules to determine which cells reproduce, so they can discover for them selves new intriguing patterns.  This project served as a great learning opportunity to become more fluent coding using functional paradigms and also gave me a solid understanding of language concepts such as the type system, which has helped me understand more fully other strongly typed languages, such as Java. ",
+        "content": "Courses, such as Artificial Intelligence and Theory of Computation left me intrigued by the idea of cellular automata and other simple computational models. I created an interactive program in Haskell that allows users to input starting configurations of alive cell and rules to determine which cells reproduce, so they can discover for them selves new intriguing patterns.  This project served as a great learning opportunity to become more fluent coding using functional paradigms and also gave me a solid understanding of language concepts such as the type system, which has helped me understand more fully other strongly typed languages, such as Java. ",
         "site": "",
         "git":"<a href=\"https://github.com/ejdeposit/func_prog_final_proj\"><i class=\"fa fa-github\"></i></a>"
         }
