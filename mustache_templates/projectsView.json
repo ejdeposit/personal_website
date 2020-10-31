@@ -21,7 +21,7 @@
         "title": "Accessible Image Generator",
         "stack": "Python; Flask; Google Cloud: App App Engine, Vision API, Datastore",
         "content": "Created a Flask web application on Google Cloud’s App Engine utilizing Google’s Vision API to automatically generate accessible HMTL image tags for uploaded photos in Cloud Storage.",
-        "site": "<a href=\"https://img-alt-generator.wm.r.appspot.com\">Site</a>pot.com\">Site</a>",
+        "site": "<a href=\"https://img-alt-generator.wm.r.appspot.com\">Site</a>",
         "git":"<a href=\"https://bitbucket.org/edeposit/cloud-img-alt-generator/src/master/\"><i class=\"fa fa-github\"></i></a>"
         },
         {
