@@ -15,6 +15,24 @@
         "git":""
         },
         {
+        "image": "<img src=\"./img/phone.jpg\" alt=\"phone\" width=\"250px\">",
+        "title": "Android Appointment Application",
+        "stack": "Java, JUnit, Maven, Gradle",
+        "content": "Integrated test-driven development practices into the construction of an Android appointment book application in Java to create, organize, and search for appointments.",
+        "bullets": false,
+        "site": "",
+        "git":"<a href=\"https://github.com/ejdeposit/appt_book_android_app\"><i class=\"fa fa-github\"></i></a>"
+        },
+        {
+        "image": "<img src=\"./img/battle_code_2020.png\" alt=\"battle code screenshot\" width=\"300px\">",
+        "title": "MIT Battlecode 2020 Tournament",
+        "stack": "Java, JUnit, Gradle",
+        "content": "Collaborated with a team in Agile Sprints and created an AI player program in Java to compete in the 2020 MIT Battlecode tournament.",
+        "bullets": false,
+        "site": "",
+        "git":"<a href=\"https://github.com/ejdeposit/cs554_battle_code\"><i class=\"fa fa-github\"></i></a>"
+        },
+        {
         "image":"<a href=\"https://state-covid-comparisons.herokuapp.com/\"><img src=\"./img/covid-tracker.png\" width=\"325px\"/></a>",
         "title":"State Covid Tracker",
         "stack":"Javascript, CSS, Node.js, Express",
@@ -40,15 +58,6 @@
         "bullets": false,
         "site": "",
         "git":"<a href=\"https://github.com/tollesonpdx/TwoNotTouch_StarBattle\"><i class=\"fa fa-github\"></i></a>"
-        },
-        {
-        "image": "<img src=\"./img/phone.jpg\" alt=\"phone\" width=\"250px\">",
-        "title": "Android Appointment Application",
-        "stack": "Java, JUnit, Maven, Gradle",
-        "content": "Integrated test-driven development practices into the construction of an Android appointment book application in Java to create, organize, and search for appointments.",
-        "bullets": false,
-        "site": "",
-        "git":"<a href=\"https://github.com/ejdeposit/appt_book_android_app\"><i class=\"fa fa-github\"></i></a>"
         },
         {
         "image": "<img src=\"./img/output_cell_aut_exe.png\" alt=\"cloud vision logo\" width=\"300px\">",
