@@ -67,6 +67,15 @@
         "bullets": false,
         "site": "",
         "git":"<a href=\"https://github.com/ejdeposit/func_prog_final_proj\"><i class=\"fa fa-github\"></i></a>"
-        }
+        },
+        {
+            "image": "<img src=\"./img/L-system_fern.bmp\" alt=\"L-system fractal\" width=\"200px\">",
+            "title": "Fractals Portfolio",
+            "stack": "C",
+            "content": "Utilized developmental paradigms, such as Lindenmayer systems, recursive decomposition, and iterated function systems, to create a portfolio of fractal images.",
+            "bullets": false,
+            "site": "",
+            "git":"<a href=\"https://github.com/ejdeposit/exploring-fractals\"><i class=\"fa fa-github\"></i></a>"
+            }
     ]
 }
