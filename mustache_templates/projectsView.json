@@ -15,7 +15,7 @@
         "git":""
         },
         {
-        "image": "<img src=\"./img/oscClip.gif\" alt=\"game of life oscillator\" width=\"250px\">",
+        "image": "<img src=\"./img/oscClip.gif\" alt=\"game of life oscillator\" width=\"300px\">",
         "title": "Game of Life in React",
         "stack": "React, Create React App, React-Bootstrap",
         "content": "I created a Game of Life application as a fun way to learn React and satisfy my fascination with cellular automata.",
