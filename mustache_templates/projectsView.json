@@ -15,6 +15,15 @@
         "git":""
         },
         {
+        "image": "<img src=\"./img/oscClip.gif\" alt=\"game of life oscillator\" width=\"250px\">",
+        "title": "Game of Life in React",
+        "stack": "React, Create React App, React-Bootstrap",
+        "content": "I created a Game of Life application as fun way to learn React and satisfy my fascination with cellular automata.",
+        "bullets": false,
+        "site": "<a href=\"https://game-of-life-in-react.herokuapp.com/\">Site</a>",
+        "git":"<a href=\"https://github.com/ejdeposit/react-game-of-life\"><i class=\"fa fa-github\"></i></a>"
+        },
+        {
         "image": "<img src=\"./img/phone.jpg\" alt=\"phone\" width=\"250px\">",
         "title": "Android Appointment Application",
         "stack": "Java, JUnit, Maven, Gradle",
