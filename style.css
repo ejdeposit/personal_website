@@ -10,6 +10,11 @@ body{
     margin-left: 0px;
     margin-right: 0px;
 }
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 div.page-title{
     text-align: center;
     color:  #eb554b;

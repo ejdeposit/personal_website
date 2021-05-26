@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-        "image": "<a href=\"https://www.pixamed.com/\"><img src=\"./img/pixamed.png\" width=\"200px\"/></a>",
+        "image": "<a href=\"https://www.pixamed.com/\"><img alt=\"Pixamed logo\" src=\"./img/pixamed.png\" width=\"200px\"/></a>",
         "title": "Full Stack Developer Internship, Pixameter",
         "stack": "Javascript, CSS, Node.js, Express, MongoDB, Bootstrap, Jquery",
         "content": "In the summer of 2020 I worked as a full-stack developer at Pixameter, a small start-up specializing in wound measurement.  While there, my responsibilities included the following:",
@@ -24,7 +24,7 @@
         "git":"<a href=\"https://github.com/ejdeposit/react-game-of-life\"><i class=\"fa fa-github\"></i></a>"
         },
         {
-        "image": "<img src=\"./img/phone.jpg\" alt=\"phone\" width=\"250px\">",
+        "image": "<img src=\"./img/phone.jpg\" alt=\"phone held by hand\" width=\"250px\">",
         "title": "Android Appointment Application",
         "stack": "Java, JUnit, Maven, Gradle",
         "content": "Integrated test-driven development practices into the construction of an Android appointment book application in Java to create, organize, and search for appointments.",
@@ -42,7 +42,7 @@
         "git":"<a href=\"https://github.com/ejdeposit/cs554_battle_code\"><i class=\"fa fa-github\"></i></a>"
         },
         {
-        "image":"<a href=\"https://state-covid-comparisons.herokuapp.com/\"><img src=\"./img/covid-tracker.png\" width=\"325px\"/></a>",
+        "image":"<a href=\"https://state-covid-comparisons.herokuapp.com/\"><img alt=\"screenshot of covid tracker website graph\" src=\"./img/covid-tracker.png\" width=\"325px\"/></a>",
         "title":"State Covid Tracker",
         "stack":"Javascript, CSS, Node.js, Express",
         "content":"I created this project as states were beginning to attempt to reopen from Covid-19 shut downs in spring of 2020. I wanted to create a way to compare covid cases numbers between states to analyze the affect reopening descisions were having. I wanted to gain more competency with CSS, so I kept the tech stack to a minimum, rather than rely frameworks, such as Bootstrap. It started out as a single page web application, but later I added an Express backend.",
@@ -60,7 +60,7 @@
         "git":"<a href=\"https://bitbucket.org/edeposit/cloud-img-alt-generator/src/master/final/\"><i class=\"fa fa-github\"></i></a>"
         },
         {
-        "image": "<img src=\"./img/starBattleSolSq.jpg\" alt=\"star battle puzzle\" width=\"200px\">",
+        "image": "<img src=\"./img/starBattleSolSq.jpg\" alt=\"terminal printout of solution to star battle puzzle\" width=\"200px\">",
         "title": "Star Battle Solver",
         "stack": "Python, PyUnit",
         "content": "Similar to Sudoku, the puzzle board is divided into regions where each region, row, and column can contain no more than two stars and stars may not be placed adjacently. I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The AC-3 algorithm uses a back-tracking search.  At each step a feasible move is attempted, then any moves that are no longer feasible are eliminated.  Additionally, checks occur to make sure that the board is not impossible to solve given the current configuration. If it is, it backtracks to the last move and tries an alternative feasible star placement.",

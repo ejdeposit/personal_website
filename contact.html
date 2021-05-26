@@ -16,73 +16,79 @@
     </head>
     <body>
         <!-- navabar -->
-        <div class="nav-bar">
-            <div id="mobile-menu">
-                <i class="fa fa-bars"></i>
+        <nav>
+            <div class="nav-bar">
+                <div id="mobile-menu">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div id="links">
+                    <div><a href="./index.html">Home</a></div>
+                    <div><a href="./about.html">About</a></div>
+                    <div><a href="./projects.html">Projects</a></div>
+                    <div><a href="./contact.html">Contact</a></div>
+                    <div><a href="./resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div>
+                </div>
+                <div id="profiles">
+                    <div>
+                        <a href="https://www.linkedin.com/in/evan-deposit/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/ejdeposit"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
             </div>
-            <div id="links">
-                <div><a href="./index.html">Home</a></div>
-                <div><a href="./about.html">About</a></div>
+            <div class="hidden drop-down">
+                <div><a href='./index.html'>Home</a></div>
+                <div><a href='./about.html'>About</a></div>
                 <div><a href="./projects.html">Projects</a></div>
                 <div><a href="./contact.html">Contact</a></div>
                 <div><a href="./resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div>
+            </div> 
+        </nav>        <!-- title-->
+        <header>
+            <div class="page-title" id=project-title>
+                <h1>Contact</h1>
             </div>
-            <div id="profiles">
-                <div>
-                    <a href="https://www.linkedin.com/in/evan-deposit/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                </div>
-                <div>
-                    <a href="https://github.com/ejdeposit"><i class="fa fa-github"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="hidden drop-down">
-            <div><a href='./index.html'>Home</a></div>
-            <div><a href='./about.html'>About</a></div>
-            <div><a href="./projects.html">Projects</a></div>
-            <div><a href="./contact.html">Contact</a></div>
-            <div><a href="./resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div>
-        </div>         <!-- title-->
-        <div class="page-title" id=project-title>
-            <h1>Contact</h1>
-        </div>
+        </header>
         <!-- contact -->
-        <div class="content" id="contact-container">
-            <div id="contact-form">
-                <p>
-                    For questions or inquires contact me at <a href="ejdeposit@gmail.com"> ejdeposit@gmail.com</a> or fill out the form below.
-                </p>
-                <form name="contact" method="POST" data-netlify="true" class="item">
-                    <div>
+        <main>
+            <div class="content" id="contact-container">
+                <div id="contact-form">
+                    <p>
+                        For questions or inquires contact me at <a href="ejdeposit@gmail.com"> ejdeposit@gmail.com</a> or fill out the form below.
+                    </p>
+                    <form name="contact" method="POST" data-netlify="true" class="item">
                         <div>
-                          <label for="name">Your Name: </label>   
+                            <div>
+                              <label for="name">Your Name: </label>   
+                            </div>
+                            <div>
+                                <input type="text" name="name" />
+                            </div>
                         </div>
                         <div>
-                            <input type="text" name="name" />
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                          <label for="email">Your Email: </label>
-                        </div>
-                        <div>
-                            <input type="email" name="email" />
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                          <label>Message: </label>
+                            <div>
+                              <label for="email">Your Email: </label>
+                            </div>
+                            <div>
+                                <input type="email" name="email" />
+                            </div>
                         </div>
                         <div>
-                            <textarea name="message"></textarea>
+                            <div>
+                              <label>Message: </label>
+                            </div>
+                            <div>
+                                <textarea name="message"></textarea>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                      <button type="submit">Send</button>
-                    </div>
-                </form> 
+                        <div>
+                          <button type="submit">Send</button>
+                        </div>
+                    </form> 
+                </div>
             </div>
-        </div>
+        </main>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
