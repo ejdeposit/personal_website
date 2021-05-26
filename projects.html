@@ -16,178 +16,202 @@
     </head>
     <body>
         <!-- navabar -->
-        <div class="nav-bar">
-            <div id="mobile-menu">
-                <i class="fa fa-bars"></i>
+        <nav>
+            <div class="nav-bar">
+                <div id="mobile-menu">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div id="links">
+                    <div><a href="./index.html">Home</a></div>
+                    <div><a href="./about.html">About</a></div>
+                    <div><a href="./projects.html">Projects</a></div>
+                    <div><a href="./contact.html">Contact</a></div>
+                    <div><a href="./resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div>
+                </div>
+                <div id="profiles">
+                    <div>
+                        <a href="https://www.linkedin.com/in/evan-deposit/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/ejdeposit"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
             </div>
-            <div id="links">
-                <div><a href="./index.html">Home</a></div>
-                <div><a href="./about.html">About</a></div>
+            <div class="hidden drop-down">
+                <div><a href='./index.html'>Home</a></div>
+                <div><a href='./about.html'>About</a></div>
                 <div><a href="./projects.html">Projects</a></div>
                 <div><a href="./contact.html">Contact</a></div>
                 <div><a href="./resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div>
+            </div> 
+        </nav>        <!-- projects content-->
+        <header>
+            <div class="page-title" id=project-title>
+                <h1>Projects</h1>
             </div>
-            <div id="profiles">
-                <div>
-                    <a href="https://www.linkedin.com/in/evan-deposit/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                </div>
-                <div>
-                    <a href="https://github.com/ejdeposit"><i class="fa fa-github"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="hidden drop-down">
-            <div><a href='./index.html'>Home</a></div>
-            <div><a href='./about.html'>About</a></div>
-            <div><a href="./projects.html">Projects</a></div>
-            <div><a href="./contact.html">Contact</a></div>
-            <div><a href="./resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div>
-        </div>         <!-- projects content-->
-        <div class="page-title" id=project-title>
-            <h1>Projects</h1>
-        </div>
-        <div class="content" id="projects">
+        </header>
+        <main>
+            <div class="content" id="projects">
 
-            <div class="project-item item">
-                <a href="https://www.pixamed.com/"><img src="./img/pixamed.png" width="200px"/></a>
-                <h2>Full Stack Developer Internship, Pixameter</h2>
-                <b>Tech Stack:</b> Javascript, CSS, Node.js, Express, MongoDB, Bootstrap, Jquery
-                <div>
-                    <p>
-                    In the summer of 2020 I worked as a full-stack developer at Pixameter, a small start-up specializing in wound measurement.  While there, my responsibilities included the following:
-                    </p>
-                    <ul>
-                    <li>Developed front-end and back-end services to allow patients to share personal information with their medical providers through a telemedicine web application using Node.js and MongoDB.</li>
-                    </ul>
-                    <ul>
-                    <li>Translated high-level requirements and customer needs into new, reliable functionality and intuitive interfaces.</li>
-                    </ul>
-                    <ul>
-                    <li>Designed and implemented a new feature, utilizing Google Cloud API&#39;s, to allow users to find nearby pharmaceutical services.</li>
-                    </ul>
-                    <ul>
-                    <li>Improved the existing code-base by introducing Bootstrap grid to achieve responsive design.</li>
-                    </ul>
-                </div>
-                <div class="project-links">
-                    <div class="app-link"><a href="https://www.pixamed.com/">Site</a></div>
-                    <div class="git-link"></div>
-                </div>
-            </div>
-            <div class="project-item item">
-                <img src="./img/oscClip.gif" alt="game of life oscillator" width="300px">
-                <h2>Game of Life in React</h2>
-                <b>Tech Stack:</b> React, Create React App, React-Bootstrap
-                <div>
-                    <p>
-                    I created a Game of Life application as a fun way to learn React and satisfy my fascination with cellular automata.
-                    </p>
-                </div>
-                <div class="project-links">
-                    <div class="app-link"><a href="https://game-of-life-in-react.herokuapp.com/">Site</a></div>
-                    <div class="git-link"><a href="https://github.com/ejdeposit/react-game-of-life"><i class="fa fa-github"></i></a></div>
-                </div>
-            </div>
-            <div class="project-item item">
-                <img src="./img/phone.jpg" alt="phone" width="250px">
-                <h2>Android Appointment Application</h2>
-                <b>Tech Stack:</b> Java, JUnit, Maven, Gradle
-                <div>
-                    <p>
-                    Integrated test-driven development practices into the construction of an Android appointment book application in Java to create, organize, and search for appointments.
-                    </p>
-                </div>
-                <div class="project-links">
-                    <div class="app-link"></div>
-                    <div class="git-link"><a href="https://github.com/ejdeposit/appt_book_android_app"><i class="fa fa-github"></i></a></div>
-                </div>
-            </div>
-            <div class="project-item item">
-                <img src="./img/battle_code_2020.png" alt="battle code screenshot" width="300px">
-                <h2>MIT Battlecode 2020 Tournament</h2>
-                <b>Tech Stack:</b> Java, JUnit, Gradle
-                <div>
-                    <p>
-                    Collaborated with a team in Agile Sprints and created an AI player program in Java to compete in the 2020 MIT Battlecode tournament.
-                    </p>
-                </div>
-                <div class="project-links">
-                    <div class="app-link"></div>
-                    <div class="git-link"><a href="https://github.com/ejdeposit/cs554_battle_code"><i class="fa fa-github"></i></a></div>
-                </div>
-            </div>
-            <div class="project-item item">
-                <a href="https://state-covid-comparisons.herokuapp.com/"><img src="./img/covid-tracker.png" width="325px"/></a>
-                <h2>State Covid Tracker</h2>
-                <b>Tech Stack:</b> Javascript, CSS, Node.js, Express
-                <div>
-                    <p>
-                    I created this project as states were beginning to attempt to reopen from Covid-19 shut downs in spring of 2020. I wanted to create a way to compare covid cases numbers between states to analyze the affect reopening descisions were having. I wanted to gain more competency with CSS, so I kept the tech stack to a minimum, rather than rely frameworks, such as Bootstrap. It started out as a single page web application, but later I added an Express backend.
-                    </p>
-                </div>
-                <div class="project-links">
-                    <div class="app-link"><a href="https://state-covid-comparisons.herokuapp.com">Site</a></div>
-                    <div class="git-link"><a href="https://github.com/ejdeposit/frontend-project"><i class="fa fa-github"></i></a></div>
-                </div>
-            </div>
-            <div class="project-item item">
-                <img src="./img/vision-api.svg" alt="cloud vision logo" width="250px">
-                <h2>Accessible Image Generator</h2>
-                <b>Tech Stack:</b> Python; Flask; Google Cloud: App Engine, Vision API, Datastore
-                <div>
-                    <p>
-                    Created a Flask web application on Google Cloud’s App Engine utilizing Google’s Vision API to automatically generate accessible HMTL image tags for uploaded photos in Cloud Storage.
-                    </p>
-                </div>
-                <div class="project-links">
-                    <div class="app-link"></div>
-                    <div class="git-link"><a href="https://bitbucket.org/edeposit/cloud-img-alt-generator/src/master/final/"><i class="fa fa-github"></i></a></div>
-                </div>
-            </div>
-            <div class="project-item item">
-                <img src="./img/starBattleSolSq.jpg" alt="star battle puzzle" width="200px">
-                <h2>Star Battle Solver</h2>
-                <b>Tech Stack:</b> Python, PyUnit
-                <div>
-                    <p>
-                    Similar to Sudoku, the puzzle board is divided into regions where each region, row, and column can contain no more than two stars and stars may not be placed adjacently. I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The AC-3 algorithm uses a back-tracking search.  At each step a feasible move is attempted, then any moves that are no longer feasible are eliminated.  Additionally, checks occur to make sure that the board is not impossible to solve given the current configuration. If it is, it backtracks to the last move and tries an alternative feasible star placement.
-                    </p>
-                </div>
-                <div class="project-links">
-                    <div class="app-link"></div>
-                    <div class="git-link"><a href="https://github.com/tollesonpdx/TwoNotTouch_StarBattle"><i class="fa fa-github"></i></a></div>
-                </div>
-            </div>
-            <div class="project-item item">
-                <img src="./img/output_cell_aut_exe.png" alt="cloud vision logo" width="300px">
-                <h2>Cellular Automata in Haskell</h2>
-                <b>Tech Stack:</b> Haskell, HUnit
-                <div>
-                    <p>
-                    Courses, such as Artificial Intelligence and Theory of Computation left me intrigued by the idea of cellular automata and other simple computational models. I created an interactive program in Haskell that allows users to input starting configurations of alive cell and rules to determine which cells reproduce, so they can discover for them selves new intriguing patterns.  This project served as a great learning opportunity to become more fluent coding using functional paradigms and also gave me a solid understanding of language concepts such as the type system, which has helped me understand more fully other strongly typed languages, such as Java. 
-                    </p>
-                </div>
-                <div class="project-links">
-                    <div class="app-link"></div>
-                    <div class="git-link"><a href="https://github.com/ejdeposit/func_prog_final_proj"><i class="fa fa-github"></i></a></div>
-                </div>
-            </div>
-            <div class="project-item item">
-                <img src="./img/L-system_fern.bmp" alt="L-system fractal" width="350px">
-                <h2>Fractals Portfolio</h2>
-                <b>Tech Stack:</b> C
-                <div>
-                    <p>
-                    Utilized developmental paradigms, such as Lindenmayer systems, recursive decomposition, and iterated function systems, to create a portfolio of fractal images.
-                    </p>
-                </div>
-                <div class="project-links">
-                    <div class="app-link"></div>
-                    <div class="git-link"><a href="https://github.com/ejdeposit/exploring-fractals"><i class="fa fa-github"></i></a></div>
-                </div>
-            </div>
+                <section>
+                    <div class="project-item item">
+                        <a href="https://www.pixamed.com/"><img alt="Pixamed logo" src="./img/pixamed.png" width="200px"/></a>
+                        <h2>Full Stack Developer Internship, Pixameter</h2>
+                        <b>Tech Stack:</b> Javascript, CSS, Node.js, Express, MongoDB, Bootstrap, Jquery
+                        <div>
+                            <p>
+                            In the summer of 2020 I worked as a full-stack developer at Pixameter, a small start-up specializing in wound measurement.  While there, my responsibilities included the following:
+                            </p>
+                            <ul>
+                            <li>Developed front-end and back-end services to allow patients to share personal information with their medical providers through a telemedicine web application using Node.js and MongoDB.</li>
+                            </ul>
+                            <ul>
+                            <li>Translated high-level requirements and customer needs into new, reliable functionality and intuitive interfaces.</li>
+                            </ul>
+                            <ul>
+                            <li>Designed and implemented a new feature, utilizing Google Cloud API&#39;s, to allow users to find nearby pharmaceutical services.</li>
+                            </ul>
+                            <ul>
+                            <li>Improved the existing code-base by introducing Bootstrap grid to achieve responsive design.</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <div class="app-link"><a href="https://www.pixamed.com/">Site</a></div>
+                            <div class="git-link"></div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="project-item item">
+                        <img src="./img/oscClip.gif" alt="game of life oscillator" width="300px">
+                        <h2>Game of Life in React</h2>
+                        <b>Tech Stack:</b> React, Create React App, React-Bootstrap
+                        <div>
+                            <p>
+                            I created a Game of Life application as a fun way to learn React and satisfy my fascination with cellular automata.
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <div class="app-link"><a href="https://game-of-life-in-react.herokuapp.com/">Site</a></div>
+                            <div class="git-link"><a href="https://github.com/ejdeposit/react-game-of-life"><i class="fa fa-github"></i></a></div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="project-item item">
+                        <img src="./img/phone.jpg" alt="phone held by hand" width="250px">
+                        <h2>Android Appointment Application</h2>
+                        <b>Tech Stack:</b> Java, JUnit, Maven, Gradle
+                        <div>
+                            <p>
+                            Integrated test-driven development practices into the construction of an Android appointment book application in Java to create, organize, and search for appointments.
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <div class="app-link"></div>
+                            <div class="git-link"><a href="https://github.com/ejdeposit/appt_book_android_app"><i class="fa fa-github"></i></a></div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="project-item item">
+                        <img src="./img/battle_code_2020.png" alt="battle code screenshot" width="300px">
+                        <h2>MIT Battlecode 2020 Tournament</h2>
+                        <b>Tech Stack:</b> Java, JUnit, Gradle
+                        <div>
+                            <p>
+                            Collaborated with a team in Agile Sprints and created an AI player program in Java to compete in the 2020 MIT Battlecode tournament.
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <div class="app-link"></div>
+                            <div class="git-link"><a href="https://github.com/ejdeposit/cs554_battle_code"><i class="fa fa-github"></i></a></div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="project-item item">
+                        <a href="https://state-covid-comparisons.herokuapp.com/"><img alt="screenshot of covid tracker website graph" src="./img/covid-tracker.png" width="325px"/></a>
+                        <h2>State Covid Tracker</h2>
+                        <b>Tech Stack:</b> Javascript, CSS, Node.js, Express
+                        <div>
+                            <p>
+                            I created this project as states were beginning to attempt to reopen from Covid-19 shut downs in spring of 2020. I wanted to create a way to compare covid cases numbers between states to analyze the affect reopening descisions were having. I wanted to gain more competency with CSS, so I kept the tech stack to a minimum, rather than rely frameworks, such as Bootstrap. It started out as a single page web application, but later I added an Express backend.
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <div class="app-link"><a href="https://state-covid-comparisons.herokuapp.com">Site</a></div>
+                            <div class="git-link"><a href="https://github.com/ejdeposit/frontend-project"><i class="fa fa-github"></i></a></div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="project-item item">
+                        <img src="./img/vision-api.svg" alt="cloud vision logo" width="250px">
+                        <h2>Accessible Image Generator</h2>
+                        <b>Tech Stack:</b> Python; Flask; Google Cloud: App Engine, Vision API, Datastore
+                        <div>
+                            <p>
+                            Created a Flask web application on Google Cloud’s App Engine utilizing Google’s Vision API to automatically generate accessible HMTL image tags for uploaded photos in Cloud Storage.
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <div class="app-link"></div>
+                            <div class="git-link"><a href="https://bitbucket.org/edeposit/cloud-img-alt-generator/src/master/final/"><i class="fa fa-github"></i></a></div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="project-item item">
+                        <img src="./img/starBattleSolSq.jpg" alt="terminal printout of solution to star battle puzzle" width="200px">
+                        <h2>Star Battle Solver</h2>
+                        <b>Tech Stack:</b> Python, PyUnit
+                        <div>
+                            <p>
+                            Similar to Sudoku, the puzzle board is divided into regions where each region, row, and column can contain no more than two stars and stars may not be placed adjacently. I implemented the AC-3 constraint satisfaction algorithm to solve these puzzles.  The AC-3 algorithm uses a back-tracking search.  At each step a feasible move is attempted, then any moves that are no longer feasible are eliminated.  Additionally, checks occur to make sure that the board is not impossible to solve given the current configuration. If it is, it backtracks to the last move and tries an alternative feasible star placement.
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <div class="app-link"></div>
+                            <div class="git-link"><a href="https://github.com/tollesonpdx/TwoNotTouch_StarBattle"><i class="fa fa-github"></i></a></div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="project-item item">
+                        <img src="./img/output_cell_aut_exe.png" alt="cloud vision logo" width="300px">
+                        <h2>Cellular Automata in Haskell</h2>
+                        <b>Tech Stack:</b> Haskell, HUnit
+                        <div>
+                            <p>
+                            Courses, such as Artificial Intelligence and Theory of Computation left me intrigued by the idea of cellular automata and other simple computational models. I created an interactive program in Haskell that allows users to input starting configurations of alive cell and rules to determine which cells reproduce, so they can discover for them selves new intriguing patterns.  This project served as a great learning opportunity to become more fluent coding using functional paradigms and also gave me a solid understanding of language concepts such as the type system, which has helped me understand more fully other strongly typed languages, such as Java. 
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <div class="app-link"></div>
+                            <div class="git-link"><a href="https://github.com/ejdeposit/func_prog_final_proj"><i class="fa fa-github"></i></a></div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="project-item item">
+                        <img src="./img/L-system_fern.bmp" alt="L-system fractal" width="350px">
+                        <h2>Fractals Portfolio</h2>
+                        <b>Tech Stack:</b> C
+                        <div>
+                            <p>
+                            Utilized developmental paradigms, such as Lindenmayer systems, recursive decomposition, and iterated function systems, to create a portfolio of fractal images.
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <div class="app-link"></div>
+                            <div class="git-link"><a href="https://github.com/ejdeposit/exploring-fractals"><i class="fa fa-github"></i></a></div>
+                        </div>
+                    </div>
+                </section>
 
-        </div>
+            </div>
+        </main>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->

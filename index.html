@@ -16,44 +16,50 @@
     </head>
     <body>
         <!-- navabar -->
-        <div class="nav-bar">
-            <div id="mobile-menu">
-                <i class="fa fa-bars"></i>
+        <nav>
+            <div class="nav-bar">
+                <div id="mobile-menu">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div id="links">
+                    <div><a href="./index.html">Home</a></div>
+                    <div><a href="./about.html">About</a></div>
+                    <div><a href="./projects.html">Projects</a></div>
+                    <div><a href="./contact.html">Contact</a></div>
+                    <div><a href="./resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div>
+                </div>
+                <div id="profiles">
+                    <div>
+                        <a href="https://www.linkedin.com/in/evan-deposit/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/ejdeposit"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
             </div>
-            <div id="links">
-                <div><a href="./index.html">Home</a></div>
-                <div><a href="./about.html">About</a></div>
+            <div class="hidden drop-down">
+                <div><a href='./index.html'>Home</a></div>
+                <div><a href='./about.html'>About</a></div>
                 <div><a href="./projects.html">Projects</a></div>
                 <div><a href="./contact.html">Contact</a></div>
                 <div><a href="./resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div>
+            </div> 
+        </nav>        <!-- about content-->
+        <main>
+            <div id="about">
+                <header>
+                    <div class="page-title">
+                        <h1>Evan DePosit</h1>
+                    </div>
+                </header>
+                    <div id="headshot">
+                        <img src="./img/headshotSq.jpg" alt="Evan DePosit in front of blue wall" width="300" height="300" >
+                    </div>
+                    <div>
+                        <h2 class="sub-title">Software Developer</h2>
+                    </div>
             </div>
-            <div id="profiles">
-                <div>
-                    <a href="https://www.linkedin.com/in/evan-deposit/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                </div>
-                <div>
-                    <a href="https://github.com/ejdeposit"><i class="fa fa-github"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="hidden drop-down">
-            <div><a href='./index.html'>Home</a></div>
-            <div><a href='./about.html'>About</a></div>
-            <div><a href="./projects.html">Projects</a></div>
-            <div><a href="./contact.html">Contact</a></div>
-            <div><a href="./resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div>
-        </div>         <!-- about content-->
-        <div id="about">
-            <div class="page-title">
-                <h1>Evan DePosit</h1>
-            </div>
-            <div id="headshot">
-                <img src="./img/headshotSq.jpg" alt="head shot" width="300" height="300" >
-            </div>
-            <div>
-                <h2 class="sub-title">Software Developer</h2>
-            </div>
-        </div>
+        </main>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
