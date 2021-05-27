@@ -33,17 +33,10 @@ h1, h2{
 h2#sub-title{
     font-size: 1.3rem;
 }
-/*
-div.content{
-}
-*/
 a{
     color:#eba64b;
 }
-
-/*
-nav bar
-*/
+/* nav bar */
 .nav-bar{
     display: flex;
     background-color: #4bc4eb;
@@ -103,20 +96,12 @@ div.drop-down div{
         display: none;
     }
 }
-/*
-about
-*/
+/* about*/
 #about{
     display:flex;
     flex-direction: column;
     align-items: center;
 }
-/*
-#about div h1{
-    font-family: 'Oswald', sans-serif;
-    font-size: 3rem;
-}
-*/
 div#headshot img{
     border-radius: 150px;
 }
@@ -184,7 +169,6 @@ div#contact-form p{
     margin-left: 10px;
     margin-right: 10px
 }
-
 /* ---------------------- 
        projects 
 ------------------------*/

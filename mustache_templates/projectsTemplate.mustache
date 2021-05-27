@@ -23,33 +23,31 @@
                 <h1>Projects</h1>
             </div>
         </header>
-        <!-- <main> -->
             <div class="content" id="projects">
                 {{#projects}} 
-                <section>
                     <div class="project-item item">
-                        {{{image}}}
-                        <h2>{{title}}</h2>
-                        <b>Tech Stack:</b> {{stack}}
-                        <div>
-                            <p>
-                            {{content}}
-                            </p>
-                            {{#bullets }}
-                            <ul>
-                            <li>{{bullet}}</li>
-                            </ul>
-                            {{/bullets }}
-                        </div>
-                        <div class="project-links">
-                            <div class="app-link">{{{site}}}</div>
-                            <div class="git-link">{{{git}}}</div>
-                        </div>
+                        <section class="projects">
+                            {{{image}}}
+                            <h2>{{title}}</h2>
+                            <b>Tech Stack:</b> {{stack}}
+                            <div>
+                                <p>
+                                {{content}}
+                                </p>
+                                {{#bullets }}
+                                <ul>
+                                <li>{{bullet}}</li>
+                                </ul>
+                                {{/bullets }}
+                            </div>
+                            <div class="project-links">
+                                <div class="app-link">{{{site}}}</div>
+                                <div class="git-link">{{{git}}}</div>
+                            </div>
+                        </section>
                     </div>
-                </section>
                 {{/projects}}
             </div>
-        <!-- </main> -->
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
